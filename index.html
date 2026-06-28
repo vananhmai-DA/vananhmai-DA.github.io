@@ -15,6 +15,7 @@
         <div class="brand">VAN ANH MAI</div>
         <div class="nav-links">
           <a href="#about">About</a>
+          <a href="#focus">Focus</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
@@ -23,13 +24,15 @@
 
       <section class="hero" id="about">
         <div class="hero-text">
+          <p class="eyebrow">Data Analyst Portfolio</p>
+
           <h1>
             Hello! I'm Van Anh, a
             <span>Data Analyst</span>
             with a Business & Finance background.
           </h1>
 
-          <p>
+          <p class="hero-summary">
             I use SQL, Python, Power BI, and Machine Learning to analyze data,
             build dashboards, and translate business problems into clear insights.
           </p>
@@ -40,8 +43,9 @@
           </p>
 
           <div class="hero-buttons">
-            <a href="https://github.com/vananhmai-DA" target="_blank" class="btn dark">View GitHub</a>
-            <a href="#projects" class="btn light">View Projects</a>
+            <a href="#projects" class="btn dark">Explore Projects</a>
+            <a href="https://github.com/vananhmai-DA" target="_blank" class="btn light">GitHub</a>
+            <a href="https://www.linkedin.com/in/vananhmai" target="_blank" class="btn light">LinkedIn</a>
           </div>
         </div>
 
@@ -52,113 +56,208 @@
         </div>
       </section>
 
+      <section class="focus" id="focus">
+        <h2>Focus Areas</h2>
+        <p class="section-intro">
+          I focus on turning business data into structured analysis,
+          dashboards, and machine learning insights.
+        </p>
+
+        <div class="focus-grid">
+          <div class="focus-card">
+            <div class="focus-icon">🗄️</div>
+            <h3>SQL Analytics</h3>
+            <p>Customer behavior, revenue analysis, conversion analysis, and business performance queries.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">⚙️</div>
+            <h3>Python Data Pipeline</h3>
+            <p>Data cleaning, transformation, PostgreSQL workflows, dbt models, and analytics-ready datasets.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">📊</div>
+            <h3>Business Intelligence</h3>
+            <p>Dashboard design, KPI reporting, business performance monitoring, and financial data analysis.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">🤖</div>
+            <h3>Machine Learning</h3>
+            <p>Churn prediction, demand forecasting, feature engineering, model evaluation, and explainability.</p>
+          </div>
+        </div>
+      </section>
+
       <section class="projects" id="projects">
         <h2>Projects</h2>
-        <p class="section-intro">Selected data analytics and machine learning projects I have worked on:</p>
+        <p class="section-intro">
+          Selected projects grouped by analytics workflow and business use case.
+        </p>
 
-        <div class="project-grid">
+        <div class="project-group">
+          <h3 class="group-title">Core Data Analytics</h3>
 
-          <div class="project-card">
-            <div class="project-icon">🗄️</div>
-            <p class="category">SQL Analytics</p>
-            <h3>E-commerce Website Performance & Purchase Behavior Analysis</h3>
-            <p>
-              Analyzed ecommerce website performance, customer purchase behavior, conversion,
-              and revenue using SQL and BigQuery.
-            </p>
-            <p><strong>Tools:</strong> SQL, BigQuery</p>
-            <a href="https://github.com/vananhmai-DA/E-commerce-Website-Performance-Purchase-Behavior-Analysis-SQL-BigQuery" target="_blank">View project →</a>
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-icon">🗄️</div>
+              <p class="category">SQL Analytics</p>
+              <h3>E-commerce Website Performance & Purchase Behavior Analysis</h3>
+              <p>
+                Analyzed ecommerce website performance, customer purchase behavior,
+                conversion, and revenue using SQL and BigQuery.
+              </p>
+              <p><strong>Tools:</strong> SQL, BigQuery</p>
+              <a href="https://github.com/vananhmai-DA/E-commerce-Website-Performance-Purchase-Behavior-Analysis-SQL-BigQuery" target="_blank">View project →</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-icon">⚙️</div>
+              <p class="category">Python Data Pipeline</p>
+              <h3>End-to-End Python Sales Analytics Pipeline</h3>
+              <p>
+                Built a data pipeline to transform raw sales data into a structured
+                analytics platform for business reporting and dashboard development.
+              </p>
+              <p><strong>Tools:</strong> Python, Pandas, PostgreSQL, dbt, Power BI</p>
+              <a href="https://github.com/vananhmai-DA/End-to-End-Python-sales-analytics-Pipeline" target="_blank">View project →</a>
+            </div>
           </div>
+        </div>
 
-          <div class="project-card">
-            <div class="project-icon">⚙️</div>
-            <p class="category">Python Data Pipeline</p>
-            <h3>End-to-End Python Sales Analytics Pipeline</h3>
-            <p>
-              Built a data pipeline to transform raw sales data into a structured analytics
-              platform for business reporting and dashboard development.
-            </p>
-            <p><strong>Tools:</strong> Python, Pandas, PostgreSQL, dbt, Power BI</p>
-            <a href="https://github.com/vananhmai-DA/End-to-End-Python-sales-analytics-Pipeline" target="_blank">View project →</a>
+        <div class="project-group">
+          <h3 class="group-title">Business Intelligence Dashboards</h3>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-icon">📊</div>
+              <p class="category">Financial Statement Analysis Power BI</p>
+              <h3>Financial Statement Analysis Dashboard Germany 2023–2025</h3>
+              <p>
+                Built a Power BI dashboard to analyze financial statements,
+                profitability, financial health, and business performance across multiple years.
+              </p>
+              <p><strong>Tools:</strong> Power BI, Power Query, DAX, Excel</p>
+              <a href="https://github.com/vananhmai-DA/Financial-Statement-Analysis-Dashboard-Germany_23-25" target="_blank">View project →</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-icon">📈</div>
+              <p class="category">Financial Reporting & BI Dashboard</p>
+              <h3>Financial Performance Dashboard Power BI</h3>
+              <p>
+                Created a Power BI dashboard to monitor financial performance,
+                revenue, cost, profit, and management KPIs.
+              </p>
+              <p><strong>Tools:</strong> Power BI, DAX, Excel</p>
+              <a href="https://github.com/vananhmai-DA/Financial-performance-dashboard-PowerBI" target="_blank">View project →</a>
+            </div>
           </div>
+        </div>
 
-          <div class="project-card">
-            <div class="project-icon">📊</div>
-            <p class="category">Financial Statement Analysis Power BI</p>
-            <h3>Financial Statement Analysis Dashboard Germany 2023–2025</h3>
-            <p>
-              Built a Power BI dashboard to analyze financial statements, profitability,
-              financial health, and business performance across multiple years.
-            </p>
-            <p><strong>Tools:</strong> Power BI, Power Query, DAX, Excel</p>
-            <a href="https://github.com/vananhmai-DA/Financial-Statement-Analysis-Dashboard-Germany_23-25" target="_blank">View project →</a>
+        <div class="project-group">
+          <h3 class="group-title">Machine Learning</h3>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-icon">🤖</div>
+              <p class="category">Machine Learning</p>
+              <h3>Ecommerce Churn Prediction Machine Learning Pipeline</h3>
+              <p>
+                Built a machine learning pipeline to predict customer churn and support
+                customer retention decisions based on ecommerce behavior data.
+              </p>
+              <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, PostgreSQL, dbt</p>
+              <a href="https://github.com/vananhmai-DA/Ecommerce_Churn_Prediction_Machine_Learning_Pipeline" target="_blank">View project →</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-icon">📦</div>
+              <p class="category">Machine Learning</p>
+              <h3>SKU Sales Forecasting Machine Learning Pipeline</h3>
+              <p>
+                Built a machine learning pipeline to forecast SKU-level sales demand and support
+                inventory planning using historical ecommerce sales data and SHAP explainability.
+              </p>
+              <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, LightGBM, SHAP</p>
+              <a href="https://github.com/vananhmai-DA/SKU_Sales_Forecasting_MachineLearning_Pipeline" target="_blank">View project →</a>
+            </div>
           </div>
-
-          <div class="project-card">
-            <div class="project-icon">📈</div>
-            <p class="category">Financial Reporting & BI Dashboard</p>
-            <h3>Financial Performance Dashboard Power BI</h3>
-            <p>
-              Created a Power BI dashboard to monitor financial performance, revenue,
-              cost, profit, and management KPIs.
-            </p>
-            <p><strong>Tools:</strong> Power BI, DAX, Excel</p>
-            <a href="https://github.com/vananhmai-DA/Financial-performance-dashboard-PowerBI" target="_blank">View project →</a>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon">🤖</div>
-            <p class="category">Machine Learning</p>
-            <h3>Ecommerce Churn Prediction Machine Learning Pipeline</h3>
-            <p>
-              Built a machine learning pipeline to predict customer churn and support
-              customer retention decisions based on ecommerce behavior data.
-            </p>
-            <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, PostgreSQL, dbt</p>
-            <a href="https://github.com/vananhmai-DA/Ecommerce_Churn_Prediction_Machine_Learning_Pipeline" target="_blank">View project →</a>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon">📦</div>
-            <p class="category">Machine Learning</p>
-            <h3>SKU Sales Forecasting Machine Learning Pipeline</h3>
-            <p>
-              Built a machine learning pipeline to forecast SKU-level sales demand and support
-              inventory planning using historical ecommerce sales data and SHAP explainability.
-            </p>
-            <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, LightGBM, SHAP</p>
-            <a href="https://github.com/vananhmai-DA/SKU_Sales_Forecasting_MachineLearning_Pipeline" target="_blank">View project →</a>
-          </div>
-
         </div>
       </section>
 
       <section class="skills" id="skills">
         <h2>Skills</h2>
+        <p class="section-intro">
+          Technical and business skills used across my portfolio projects.
+        </p>
 
-        <div class="skills-list">
-          <span>SQL</span>
-          <span>BigQuery</span>
-          <span>Python</span>
-          <span>Pandas</span>
-          <span>Power BI</span>
-          <span>DAX</span>
-          <span>PostgreSQL</span>
-          <span>dbt</span>
-          <span>Scikit-learn</span>
-          <span>LightGBM</span>
-          <span>SHAP</span>
-          <span>Machine Learning</span>
-          <span>Forecasting</span>
-          <span>Feature Engineering</span>
-          <span>Model Evaluation</span>
-          <span>Financial Analysis</span>
-          <span>Business Analytics</span>
+        <div class="skills-category-grid">
+          <div class="skills-category">
+            <h3>Data Analysis</h3>
+            <div class="skills-list">
+              <span>SQL</span>
+              <span>BigQuery</span>
+              <span>EDA</span>
+              <span>Customer Behavior Analysis</span>
+              <span>Revenue Analysis</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Python & Data Pipeline</h3>
+            <div class="skills-list">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>PostgreSQL</span>
+              <span>dbt</span>
+              <span>Data Cleaning</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Business Intelligence</h3>
+            <div class="skills-list">
+              <span>Power BI</span>
+              <span>Power Query</span>
+              <span>DAX</span>
+              <span>Dashboard Design</span>
+              <span>KPI Reporting</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Machine Learning</h3>
+            <div class="skills-list">
+              <span>Scikit-learn</span>
+              <span>LightGBM</span>
+              <span>SHAP</span>
+              <span>Forecasting</span>
+              <span>Feature Engineering</span>
+              <span>Model Evaluation</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Business Understanding</h3>
+            <div class="skills-list">
+              <span>Business Analytics</span>
+              <span>KPI Analysis</span>
+              <span>Performance Metrics</span>
+              <span>Customer & Sales Analysis</span>
+              <span>Financial & Business Data</span>
+              <span>Empirical Economics</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="contact" id="contact">
         <h2>Contact</h2>
+        <p class="section-intro">
+          Feel free to connect with me through GitHub, LinkedIn, or email.
+        </p>
 
         <div class="contact-links">
           <p>
